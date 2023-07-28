@@ -32,8 +32,18 @@ API para gerenciar uma lista de tarefas, com as opções de CRUD. Nesta implemen
 
 - Clonar repositório git
 ```bash
-git clone 
+git clone https://github.com/Thalles-Eduardo/To-do-list-Spring-Boot
 ```
+- Copiar as pastas "static" e "templates"
+```bash
+Copy-Item -Path "Front_End\static","Front_End\templates" -Destination "Back_End\task\src\main\resources" -Recurse
+```
+- Entrar na pasta para execução
+```bash
+cd Back_End
+cd task
+```
+
 - Executar a aplicação:
 ```bash
 ./mvnw spring-boot:run
@@ -41,21 +51,9 @@ git clone
 
 A API poderá ser acessada em [localhost:8080/tasks](http://localhost:8080/tasks).
 
-## API Endpoints
+## API Endpoint
 
-- Criar Tarefa
-
-![Adicionar](https://github.com/Thalles-Eduardo/To-do-list-Spring-boot/assets/69612509/16e3092f-58ca-44c1-b3c2-bb494ea4b52d)
-
-
-- Excluir apenas uma Tarefa
-
-![Excluir](https://github.com/Thalles-Eduardo/To-do-list-Spring-boot/assets/69612509/ee601366-2cd0-474a-914a-71c44d423ff6)
-
-
-- Excluir todas as Tarefas 
-
-![Excluir todas](https://github.com/Thalles-Eduardo/To-do-list-Spring-boot/assets/69612509/87316a08-b590-465b-b5a0-92797fc1f541)
+![image](https://github.com/Thalles-Eduardo/To-do-list-Spring-Boot/assets/69612509/3e398119-5fbe-4cb2-a698-0f888971a563)
 
 
 # Author
